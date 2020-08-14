@@ -1,0 +1,345 @@
+html {
+  /* height: ; */
+  background-image: linear-gradient(#fc8680, #922f53);
+}
+body {
+  /*background-color: #fc5e55;*/
+  background-image:url(images/image-lion-background.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  color: rgb(253, 253, 253);
+  font-family: "Lato", sans-serif;
+  font-size: 1.125rem;
+  /* line-height: 1.75rem; */
+  /* font-weight: none; */
+}
+
+a {
+  color:#ffffff;
+  /* font-family: "Alegreya", sans-serif; */
+  /* font-size: 1.5rem; */
+  text-decoration: none;
+}
+
+.inputwrapper {
+  margin-bottom: 30px;
+  /* display: block; */
+}
+
+input[type=text], input[type=email] {
+  padding: 12px 20px;
+  width:100%;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+form {
+  margin: 40px 0px;
+}
+
+
+textarea {
+  padding: 12px 20px;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type=radio] {
+  margin-right: 10px;
+}
+.margin-right-a {
+margin-right: 20px;
+}
+
+.newline {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/*.grid-table {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+  }*/
+
+.container {
+  width: 1024px;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  /*background-color: green;*/
+  min-height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgrey;
+
+  /* padding-left: 10px; */
+  /* padding-right: 10px; */
+}
+.mybuttona {
+background-color: none;
+  border-color: white;
+  color:black;
+  font-size: 1.05rem;
+}
+
+
+main {
+  /*background-color: greenyellow;*/
+  min-height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.main-contact-us {
+  /*background-color: greenyellow;*/
+  min-height: 300px;
+  /* display: flex;
+  align-items: center; */
+}
+
+.main-contact-us h1 {
+  font-family: "Alegreya", serif;
+  font-size: 3.25rem;
+  text-shadow: 0px 2px 5px rgb(121, 121, 121) ;
+}
+
+.main-contact-us p {
+  line-height: 1.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 1.25rem;
+  
+  
+}
+
+.heroboxa :last-child {
+  color: blue;
+}
+/* .heroboxa p:last-of-type { */
+  /* color: blue; */
+/* } */
+/* .heroboxa :first-child { */
+  /* color: blue; */
+/* } */
+
+
+
+.heroboxa {
+  /* text-align: left;
+  min-height: auto; */
+  flex: 2;
+  padding-right: 6.25rem;
+  /* padding-right: 100px; */
+
+}
+.heroboxb img {
+  /*background-color: rgb(43, 174, 226);*/
+  /* min-height: auto; */
+  flex: 1;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black ;
+}
+
+
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: rgb(47, 198, 33); */
+  /* min-height: 300px; */
+  text-align: center;
+  
+}
+
+.card1 {
+  background-image: url(images/image-background-card1.jpg);
+  /* background-color: rgb(54, 173, 133); */
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 25px 25px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.card2 {
+  background-image: url(images/image-background-card2.jpg);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px black ;
+}
+
+.card3 {
+  background-image: url(images/image-background-card3.jpg);
+  min-height: 250px;
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px black ;
+}
+
+
+.card1, .card2, .card3 {
+  padding: 30px 30px 20px 30px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Alegreya", serif;
+  font-size: 3.25rem;
+  margin-bottom: 1rem;
+  text-shadow: 0px 2px 5px rgb(121, 121, 121) ;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Alegreya", serif;
+  margin-top: 20px;
+}
+
+p {
+  line-height: 1.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  margin-bottom: 0.5rem;
+}
+
+.cards p {
+  font-size: 0.85em;
+  line-height: 1.25;
+  margin-top: 10px;  
+  /* 30px 20px 30px We are going to use border box instead*/ 
+}
+
+.cards i {
+  font-size: 6.25rem;
+  /* padding-top: 25px; */
+}
+
+/* .cards a {  
+  color: white;
+  text-decoration: none;
+}*/
+
+
+
+.mybutton {
+  /* background: white;  */
+  background-color:none;
+  border: 1px solid white;
+  padding: 11px 25px;
+  color: #fc8680;
+  font-family: "Alegreya", serif;
+  color: white;
+  /* box-shadow: 0px 2px 2px rgb(0, 0, 0.228); */
+}
+
+.heroboxa .mybutton {
+  background-color: white;
+  color:  #922f53;
+  border: none;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 2px 2px rgb(121, 121, 121);
+}
+
+.mybutton:hover {
+  background-color: rgb(5, 170, 156);
+  transition-duration: 1s;
+}
+a.mybutton { 
+  display: inline-block;
+  margin-top: 10px;
+  /* margin-bottom: 10px; */
+}
+
+nav a.mybutton {
+  margin-left: 30px;
+  /* background-color: #fc8680;
+  border-style: solid;
+  color: #fafafa;
+  border-radius: 0px;
+  box-shadow: none;
+  border-width: 1px;
+  padding: 11px 25px;
+  transition-duration: 1s; */
+}
+
+.navbutton {
+  
+  padding-bottom: 5px;
+  font-family: "Alegreya", serif;
+  display: inline-block;
+  position: relative;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+/* .heroboxa :first-child { */
+  /* color: blue; */
+/* } */
+
+
+
+.tbox {
+  width: 45%;
+  padding: 50px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  margin-top: 50px;
+}
+
+.tbox p:last-of-type {
+  color: rgb(23, 23, 36);
+font-size: .8rem;
+padding-left: 30px;
+}
+
+
+
+.dropdown {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.navbutton:hover .dropdown {
+  display:block;
+}
+
+.dropdown .navbutton {
+  width: 120px;
+  /* margin-left: 30px;
+  padding: 10px; */
+  background-color: #fafafa;
+}
+.dropdown .navbutton a {
+  color: #922f53;
+}
+
+.center {
+  text-align: center;
+  font-family: "Alegreya", serif;
+  
+}
